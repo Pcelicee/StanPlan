@@ -31,7 +31,7 @@ import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 @EnableWebSecurity
 public class SecurityConfig {
 
-    @Value("${progi.fronted.url}")
+    @Value("${progi.frontend.url}")
     private String frontendUrl;
 
     @Bean
